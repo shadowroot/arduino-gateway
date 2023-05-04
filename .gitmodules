@@ -1,3 +1,6 @@
 [submodule "lib/arduino-home-assistant"]
 	path = lib/arduino-home-assistant
 	url = https://github.com/dawidchyrzynski/arduino-home-assistant.git
+[submodule "lib/Arduino-cmd-processing"]
+	path = lib/Arduino-cmd-processing
+	url = git@github.com:shadowroot/Arduino-cmd-processing.git
