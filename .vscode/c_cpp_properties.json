@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/jonny/git/arduino-gateway/include",
+                "/home/jonny/git/arduino-gateway/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/jonny/git/arduino-gateway/include",
+                    "/home/jonny/git/arduino-gateway/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "ESP32",
+                "ESP_PLATFORM",
+                "F_CPU=160000000L",
+                "HAVE_CONFIG_H",
+                "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
+                "PLATFORMIO=60106",
+                "ARDUINO_ESP32C3_DEV",
+                ""
+            ],
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/jonny/.platformio/packages/toolchain-riscv32-esp/bin/riscv32-esp-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
